@@ -2,7 +2,6 @@
 
 let mostrarFecha = document.querySelector('#fecha');
 let mostrarReloj = document.querySelector('#reloj');
-
 let dias = [
 	'Domingo',
 	'Lunes',
@@ -40,3 +39,5 @@ setInterval(() => {
 	let newHora = new Date();
 	mostrarReloj.innerHTML = newHora.toLocaleTimeString();
 }, 1000);
+
+console.log(fecha);
